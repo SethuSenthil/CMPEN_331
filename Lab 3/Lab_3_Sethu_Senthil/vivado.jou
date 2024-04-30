@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Apr  7 18:36:57 2024
+# Process ID: 796
+# Current directory: C:/Labs/Lab 3/Lab_3_Sethu_Senthil
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent864 C:\Labs\Lab 3\Lab_3_Sethu_Senthil\Lab_3_Sethu_Senthil.xpr
+# Log file: C:/Labs/Lab 3/Lab_3_Sethu_Senthil/vivado.log
+# Journal file: C:/Labs/Lab 3/Lab_3_Sethu_Senthil\vivado.jou
+# Running On: SETHUSENTHI9FEC, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 6436 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Labs/Lab 3/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.xpr}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+create_project project_4 {C:/Labs/LAB 4 STUFF/my laB/project_4} -part xc7z010clg400-1
+current_project Lab_3_Sethu_Senthil
+close_project
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new
+file mkdir {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new}
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/Datapath.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/Datapath.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_ProgramCounter_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_ProgramCounter_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_pcAdder_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_pcAdder_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_InstructionMemory_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IF_InstructionMemory_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IFIDpipelineReg_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IFIDpipelineReg_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_controlUnit_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_controlUnit_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_RegrtMultiplexer_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_RegrtMultiplexer_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_RegisterFile_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_RegisterFile_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_ImmediateExtender_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/ID_ImmediateExtender_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IDEXEpipeline_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/IDEXEpipeline_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXE_ALU_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXE_ALU_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXE_ALUMux_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXE_ALUMux_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXEMempipeline_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/EXEMempipeline_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/MEM_DataMemory_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/MEM_DataMemory_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/MEMWBpipeline_dp.v} w ]
+add_files {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sources_1/new/MEMWBpipeline_dp.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new
+file mkdir {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new}
+close [ open {C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new/TestBench.v} w ]
+add_files -fileset sim_1 {{C:/Labs/LAB 4 STUFF/my laB/project_4/project_4.srcs/sim_1/new/TestBench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

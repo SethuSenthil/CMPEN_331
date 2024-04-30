@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Apr 30 17:07:13 2024
+# Process ID: 9836
+# Current directory: C:/Labs/FINAL LAB/SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7416 C:\Labs\FINAL LAB\SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT\SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT.xpr
+# Log file: C:/Labs/FINAL LAB/SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT/vivado.log
+# Journal file: C:/Labs/FINAL LAB/SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT\vivado.jou
+# Running On: SETHUSENTHI9FEC, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 6436 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Labs/FINAL LAB/SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT/SETHU_FINAL_PROJECT_WITH_EXTRA_CREDIT.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Mar 17 20:51:46 2024
+# Process ID: 4672
+# Current directory: C:/Labs/Lab_3_Sethu_Senthil
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7596 C:\Labs\Lab_3_Sethu_Senthil\Lab_3_Sethu_Senthil.xpr
+# Log file: C:/Labs/Lab_3_Sethu_Senthil/vivado.log
+# Journal file: C:/Labs/Lab_3_Sethu_Senthil\vivado.jou
+# Running On: SETHUSENTHI9FEC, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 6436 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/RegrtMultiplexer.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/ProgramCounter.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/InstructionMemory.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/ControlUnit.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/RegisterFile.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/IFIDpipelineReg.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/pcAdder.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/ImmediateExtender.v C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/IDEXEpipeline.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+reset_run synth_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source TestBench.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdderModule.v w ]
+add_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdderModule.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/pcAdder.v] -no_script -reset -force -quiet
+remove_files  C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/pcAdder.v
+remove_files  C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/pcAdder.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdderModule.v] -no_script -reset -force -quiet
+remove_files  C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdderModule.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/ProgramCounter.v] -no_script -reset -force -quiet
+remove_files  C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/ProgramCounter.v
+close [ open C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdder.v w ]
+add_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomPCAdder.v
+update_compile_order -fileset sources_1
+close [ open C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomProgramCounter.v w ]
+add_files C:/Labs/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.srcs/sources_1/new/CustomProgramCounter.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_sim
+launch_simulation
+source TestBench.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim

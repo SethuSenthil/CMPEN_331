@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Apr  7 18:38:48 2024
+# Process ID: 5152
+# Current directory: C:/Labs/Lab 3/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.runs/impl_1
+# Command line: vivado.exe -log Datapath.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Datapath.tcl -notrace
+# Log file: C:/Labs/Lab 3/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.runs/impl_1/Datapath.vdi
+# Journal file: C:/Labs/Lab 3/Lab_3_Sethu_Senthil/Lab_3_Sethu_Senthil.runs/impl_1\vivado.jou
+# Running On: SETHUSENTHI9FEC, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 6436 MB
+#-----------------------------------------------------------
+source Datapath.tcl -notrace

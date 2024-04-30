@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 21 18:24:49 2020
+# Process ID: 24944
+# Current directory: D:/CMPEN_Labs/Lab0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2772 D:\CMPEN_Labs\Lab0\Lab0.xpr
+# Log file: D:/CMPEN_Labs/Lab0/vivado.log
+# Journal file: D:/CMPEN_Labs/Lab0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CMPEN_Labs/Lab0/Lab0.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+close_sim
